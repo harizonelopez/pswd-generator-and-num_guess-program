@@ -1,9 +1,8 @@
-
-
 #@Dev_aladinh copyright
 
 import random
 import time
+import os
 
 minimum_number = 1
 maximum_number = 20
