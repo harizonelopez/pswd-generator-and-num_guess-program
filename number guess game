@@ -36,7 +36,7 @@ if couter <= 5:
     print("That's awesome for the start and so encouraging " + name_of_participant + " ^*^.")
 
 else:
-    print("Big up buddy " + name_of_participant + " .\n")
+    print("Big up " + name_of_participant + " .\n")
 
 
 
