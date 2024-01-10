@@ -1,11 +1,11 @@
-#@Dev_aladinh copyright
+#@Dev_aladinh production
 
 import random
 import time
 import os
 
-minimum_number = 1
-maximum_number = 20
+minimum_number = 0
+maximum_number = 26
 
 random_number = random.randint(minimum_number, maximum_number)
 
@@ -23,7 +23,7 @@ while guessed_number != random_number:
     
    
     if guessed_number > random_number:
-            print("\nOops! Your guess is above the random_number, \nTry guessing a number below the guess you have just made. ")
+            print("\nOops!!!, Your guess is above the random_number, \nTry guessing a number below the guess you have just made. ")
 
     if guessed_number < random_number: 
             print("\nOops! Your guess is below the random_number, \nTry guessing a number above the guess you have just made.")
@@ -35,7 +35,7 @@ if couter <= 5:
     print("That's awesome for the start and so encouraging " + name_of_participant + " ^*^.")
 
 else:
-    print("Big up " + name_of_participant + " .\n")
+    print("Big up pall " + name_of_participant + " .\n")
 
 
 
