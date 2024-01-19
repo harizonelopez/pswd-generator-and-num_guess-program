@@ -1,7 +1,5 @@
 #@Dev_aladinh production
 import random
-import time
-import os
 
 minimum_number = 0
 maximum_number = 26
