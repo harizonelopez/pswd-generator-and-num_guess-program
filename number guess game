@@ -1,4 +1,6 @@
-#@Dev_aladinh production
+# @Dev_aladinh production
+# a number guess game
+
 import random
 
 minimum_number = 0
