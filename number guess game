@@ -1,5 +1,4 @@
 # @Dev_aladinh production
-# a number guess game
 
 import random
 
@@ -11,7 +10,7 @@ random_number = random.randint(minimum_number, maximum_number)
 guessed_number = None
 couter = 0
 
-print("\nEnter your name ")
+print("\nEnter your user_name ")
 name_of_participant = input("\n:--> ").lower()
 
 while guessed_number != random_number:
@@ -36,5 +35,3 @@ else:
     print(f"Big up pall {name_of_participant}.\n")
 
 
-
--
